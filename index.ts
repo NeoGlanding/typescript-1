@@ -1,17 +1,8 @@
-type mandatory = ['TypeScript', 'Javascript']
-
-type profile = {
-    name: string;
-    age: number;
-    education: string;
-    mandatory: mandatory
+const biografiSingkat = (nama: string, usia: number) => {
+    return `Halo nama saya ${nama}, saya berusia ${usia} tahun`
 }
 
-let myProfile : profile = {
-    name: 'Muhammad Ihsan Abdurrahman',
-    age: 18,
-    education: 'SMK',
-    mandatory: ['TypeScript', 'Javascript']
-}
+type tuples = [string, number, string]
 
-console.log(myProfile)
+const ihsan = biografiSingkat('Ihsan', 20);
+const aldo = biografiSingkat("Aldo", 10)

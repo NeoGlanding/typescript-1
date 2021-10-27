@@ -1,8 +1,7 @@
-"use strict";
-var myProfile = {
-    name: 'Muhammad Ihsan Abdurrahman',
-    age: 18,
-    education: 'SMK',
-    mandatory: ['TypeScript', 'Javascript']
+var biografiSingkat = function (nama, usia) {
+    return "Halo nama saya " + nama + ", saya berusia " + usia + " tahun";
 };
-console.log(myProfile);
+var ihsan = biografiSingkat('Ihsan', 20);
+var aldo = biografiSingkat("Aldo", 10);
+console.log(ihsan);
+console.log(aldo);
